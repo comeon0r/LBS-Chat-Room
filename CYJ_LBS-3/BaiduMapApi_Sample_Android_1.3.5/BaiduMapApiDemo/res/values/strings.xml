@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, BMapApiDemoMain!</string>
+    <string name="app_name">LolFriends</string>
+    
+    <string name="str_id_start">开始</string>
+    <string name="str_id_bus">公交车</string>
+    <string name="takepictureItem">拍照上传</string>
+    <string name="myinfoItem">我的主页</string>
+    <string name="logoffItem">注销</string>
+    <string name="showfriendsItem">好友</string>
+    <string name="shieldingfriendsItem">屏蔽</string>
+    <string name="settingsItem">设置</string>
+</resources>

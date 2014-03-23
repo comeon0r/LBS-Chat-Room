@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/groupdetailsbackground"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/img_btn"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/groupdetails" />
+
+    <TextView
+        android:id="@+id/_username"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="周晓婷"
+        android:textAppearance="?android:attr/textAppearanceMedium" /> 
+
+    <TextView
+        android:id="@+id/show_ename"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dip"
+        android:layout_marginRight="40dip"
+        android:layout_marginTop="10dp"
+        android:text="谁能陪我去看电影啊~~~~~！！！截止于周五前，速来！！！大家一起看电影才有氛围吗~~~嘻嘻嘻~~~这周五截止哦~~~"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/change_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dip"
+        android:layout_marginRight="40dip"
+        android:layout_marginTop="30dp"
+        android:text="陈园军，李宇鹏，我是大帅哥，梦在远方，Eric方。等12人参与了该讨论"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="right"
+        android:textColor="#ff545454"
+        android:textSize="15sp" />
+
+</LinearLayout>

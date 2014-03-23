@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.baidu.mapapi.demo"
+      android:versionCode="1"
+      android:versionName="1.0">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>  
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE"></uses-permission> 
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+	<uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+
+	<supports-screens android:largeScreens="true"
+	    android:normalScreens="false" android:smallScreens="true"
+	    android:resizeable="true" android:anyDensity="true"/>
+	<uses-sdk android:minSdkVersion="5" android:targetSdkVersion="8"></uses-sdk>
+	
+    <application android:icon="@drawable/icon1" android:label="@string/app_name"
+    			android:name=".BMapApiDemoApp">
+        <activity android:name=".main"
+                  android:label="@string/app_name" android:screenOrientation="sensor" 
+        		android:configChanges="orientation|keyboardHidden"
+        		android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>                
+        <activity android:name=".login" android:screenOrientation="sensor" 
+        	android:configChanges="orientation|keyboardHidden"
+        	android:theme="@android:style/Theme.NoTitleBar"> </activity>
+        <activity android:name=".tab2_mapMain" android:screenOrientation="sensor" 
+        	android:configChanges="orientation|keyboardHidden"> </activity>
+        <activity android:name=".chattingGroupDetails" android:screenOrientation="sensor" 
+        	android:configChanges="orientation|keyboardHidden"> </activity>
+        <activity android:name=".button_friends" android:screenOrientation="sensor" 
+        	android:configChanges="orientation|keyboardHidden"
+        	android:theme="@android:style/Theme.NoTitleBar"> </activity>
+        <activity android:name=".tab_MainActivity" android:screenOrientation="sensor" 
+        	android:configChanges="orientation|keyboardHidden"
+        	android:theme="@android:style/Theme.NoTitleBar"> </activity>
+        <activity android:name=".tab3_chattingWithFriends" > </activity>        
+        <activity android:name=".register" > </activity>
+        <activity android:name=".tab1_chattingGroups" > </activity>
+        <activity android:name=".button_myInfo" android:screenOrientation="sensor" 
+        	android:configChanges="orientation|keyboardHidden"
+        	android:theme="@android:style/Theme.NoTitleBar"> </activity>
+        <activity android:name=".tab3_chattingWithFriends" > </activity>
+        <activity android:name=".chattingGroupUI" > </activity>
+        <activity android:name=".chattingGroupAdapter" > </activity>
+        <activity android:name=".button_takePicture" android:screenOrientation="sensor" 
+        	android:configChanges="orientation|keyboardHidden"
+        	android:theme="@android:style/Theme.NoTitleBar"> </activity>
+		<activity android:name="com.baidu.mapapi.PlaceCaterActivity" 
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@android:style/Theme.NoTitleBar"> </activity>
+    </application>
+    
+</manifest>
